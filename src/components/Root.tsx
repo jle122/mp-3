@@ -8,6 +8,7 @@ import Certifications from "./mains/Certifications.tsx";
 import Education from "./mains/Education.tsx";
 import Experience from "./mains/Experience.tsx";
 import Skills from "./mains/Skills.tsx";
+import Project from "./mains/Project.tsx";
 
 const Wrapper = styled.div`
     background-color:rgb(0,128,198);
@@ -63,6 +64,7 @@ export default function Root(){
                         <Route path={`/certifications.html`} element={<Certifications/>}/>
                         <Route path={`/education.html`} element={<Education/>}/>
                         <Route path={`/experience.html`} element={<Experience/>}/>
+                        <Route path={`/projects.html`} element={<Project/>}/>
                         <Route path={`/skills.html`} element={<Skills/>}/>
                     </Routes>
                 </StyledMain>
